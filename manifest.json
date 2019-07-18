@@ -1,0 +1,25 @@
+{
+  "description": "Generates backgrounds for new tabs based on a user-provided topic.",
+  "manifest_version": 2,
+  "name": "Topic Tabs",
+  "version": "1.0",
+  "homepage_url": "https://github.com/tplobbregt",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://topic-tabs-api.herokuapp.com/api/topic/?topic=*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "Topic Tabs"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "./newTab/newTab.html"
+  }
+}
