@@ -11,7 +11,9 @@
   "permissions": [
     "activeTab",
     "storage",
-    "https://topic-tabs-api.herokuapp.com/api/topic/?topic=*"
+    "https://topic-tabs-api.herokuapp.com/api/topic/?topic=*",
+    "https://topic-tabs-api-java.herokuapp.com/api/topic/?topic=*",
+    "http://topictabsapi-web-prod.us-east-2.elasticbeanstalk.com/api/topic/*"
   ],
 
   "browser_action": {

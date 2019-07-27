@@ -55,7 +55,8 @@ async function setTopic(topic) {
     inputMsg.style.cssText = 'background-color: #007bff';
 
     const resp = await fetch(
-      `https://topic-tabs-api.herokuapp.com/api/topic/?topic=${topic}`
+      `http://topictabsapi-web-prod.us-east-2.elasticbeanstalk.com/api/topic/?topic=${topic}`
+      // `https://topic-tabs-api-java.herokuapp.com/api/topic/?topic=${topic}`
     );
     const data = await resp.json();
 
