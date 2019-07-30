@@ -65,7 +65,7 @@ Topic Tabs is a browser extension that generates backgrounds for new tabs based 
 
 ## TODO
 
-- [ ] - Add to Chrome Web Store
+- [x] - Add to Chrome Web Store
 - [ ] - Add to Firefox Add-ons store
 
 <a name = "getting_started"></a>
